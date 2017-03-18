@@ -1,0 +1,116 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add! */
+
+html {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Verdana;
+}
+
+header {
+  background-color:green;
+  padding: 5px;
+  font-size: ;
+  display: block;
+}
+
+nav {
+  float: left;
+  width: 100%;
+}
+
+nav ul {
+  padding: ;
+  float: left;
+  border-bottom: ;
+  list-style-type: none;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  height: 25px;
+  padding: 12px 18px 8px 18px;
+  vertical-align: middle;
+}
+
+a {
+  color: ;
+}
+
+section {
+  width: 73%;
+  display: inline-block;
+  float: left;
+}
+
+aside {
+  width: 13%;
+  display: inline-block;
+  background-color:#ffa042;
+  padding:;
+  min-height: 100%;
+  float: right;
+}
+
+aside ul {
+  list-style-type: none;
+}
+
+footer {
+  width: 790px;
+  background-color:;
+  color:;
+  clear: both;
+  display: block;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: green;
+}
+.collage-left {
+  width: 56.5%;
+  float: left;
+}
+.collage-right {
+  width: 41%;
+  float: left;
+}
+article {
+    clear: left;
+}
+img {
+  width: 100%;
+}
